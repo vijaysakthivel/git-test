@@ -1,0 +1,25 @@
+{
+  "name": "git-test2",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git nad node",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaysakthivel/git-test.git"
+  },
+  "author": "vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijaysakthivel/git-test/issues"
+  },
+  "homepage": "https://github.com/vijaysakthivel/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
+  
